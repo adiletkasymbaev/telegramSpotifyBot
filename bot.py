@@ -3,7 +3,7 @@ from sqlalchemy import and_, or_
 from db_models import Song
 from db_config import session
 
-TOKEN = "8399648534:AAFvCsM552fBqmS0gyNZ5wQ2ckkOMmuGWGY"
+TOKEN = "Your token"
 bot = telebot.TeleBot(TOKEN)
 
 def smart_search(query):
